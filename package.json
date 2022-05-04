@@ -1,0 +1,27 @@
+{
+  "name": "chatassistx",
+  "version": "0.1.0",
+  "description": "Send Twitch & Youtube chat to ChatAssist",
+  "main": "index.js",
+  "bin": {
+    "chatassistx": "./index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "ChatAssist",
+    "ChatAssistX"
+  ],
+  "author": "YJSoft",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "tapic": "^5.0.0",
+    "ws": "^2.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lastorder-DC/ChatAssistX.git"
+  }
+}
